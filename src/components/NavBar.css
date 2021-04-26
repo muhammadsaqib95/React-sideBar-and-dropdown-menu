@@ -1,0 +1,28 @@
+.nav-bar{
+    display: none;
+   
+}
+.active{
+    left: 0%;
+    display: block;
+    background-color: #454545;
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+    width: 250px;
+}
+.active li{
+    list-style: none;
+    color: white;
+    padding: 30px 50%;
+}
+.active li:hover{
+    background-color: #222;
+}
+.navbar{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
