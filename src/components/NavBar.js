@@ -10,16 +10,24 @@ function NavBar (){
             <>
             <nav className='navbar'>
                 <div><h1>MY APP</h1></div>
+                <ul className="inline-menu">
+                    <li> Home</li>
+                    <li> About</li>
+                    <li> Contact</li>
+                    <li> Projects</li>
+                    <li> Team</li>
+                </ul>
                 <div className='menu-icon' onClick={clickHandle}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                 </div>
             </nav>
+
             <ul className={click ? 'active' : 'nav-bar'}>
-                    <li> hello</li>
-                    <li> hello</li>
-                    <li> hello</li>
-                    <li> hello</li>
-                    <li> hello</li>
+                    <li> Home</li>
+                    <li> About</li>
+                    <li> Contact</li>
+                    <li> Projects</li>
+                    <li> Team</li>
                 </ul>
 
             </>
